@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bing신",
+  "description": "Windows의 기본 검색 엔진으로 채택될 만큼 신적으로 우월한 빙의 검색결과를 머저리 구글의 검색결과로 리디렉션 해줍니다",
+  "version": "1.0.0",
+
+  "browser_action": {
+    "default_popup": "./index.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.bing.com/*"],
+      "js": ["background.js"]
+    }
+  ],
+
+  "permissions": ["tabs", "http://*/*", "https://*/*", "storage"]
+}
