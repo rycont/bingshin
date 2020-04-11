@@ -48,7 +48,7 @@ div.handle {
   transition: 200ms left;
 }
 input:checked + div {
-  background-color: #29B5A8;
+  background-color: #29b5a8;
 }
 input:checked + div div.handle {
   left: 45px;

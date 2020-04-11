@@ -12,8 +12,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.bing.com/*"],
-      "js": ["background.js"],
-      "css": ["invisiblazer.css"]
+      "js": ["background.js"]
     }
   ],
 
